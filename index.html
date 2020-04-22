@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vyv8eri.css">
     <title>To do list</title>
 </head>
 <body>
     
+    <div class="logo">
+        <img src="./img/logo.svg" alt="">
+    </div>
+
+    <div class="add-to-section">
+        <div class="add-todo">
+            <div class="text-input">
+                <input type="text" name="userData" id="userText" placeholder="Type a task here and click + to add">
+                <div class="underline"></div>
+             </div>
+            <button class="button" onclick="addToList()"> <img src="./img/add-button.svg" alt=""></button>            
+        </div>
+    </div>
+
+    <div class="separation-line"></div>
+        <div class="tasks">
+        <div class="divResult">
+            <p class="result"></p>
+        </div>
+    </div>
 </body>
+<script src="./scripts/index.js"></script>
 </html>

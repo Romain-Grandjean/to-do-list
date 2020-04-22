@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FBFAFC;
+}
+
+.logo {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.6rem;
+}
+
+.add-to-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-todo {
+  width: 82.8rem;
+  height: 8.8rem;
+  background-color: white;
+  margin-top: 13.2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-input {
+  width: 68.4rem;
+  height: auto;
+}
+
+.text-input input {
+  width: 68.4rem;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: black;
+  border: none;
+  margin-left: 7.2rem;
+  outline-style: none;
+}
+
+::placeholder {
+  font-style: italic;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.underline {
+  width: 68.4rem;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.104);
+  margin-top: 2px;
+  margin-left: 7.2rem;
+}
+
+.add-todo button, .add-todo button:active {
+  border: none;
+  background-color: none;
+  outline-style: none;
+}
+
+.button {
+  margin-right: 21px;
+}
+
+p {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
