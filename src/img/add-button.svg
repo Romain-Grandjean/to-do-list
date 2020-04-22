@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>button new task</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1083.000000, -249.000000)">
+            <g id="task-edit" transform="translate(306.000000, 220.000000)">
+                <g id="elements-add" transform="translate(71.000000, 31.000000)">
+                    <g id="button-new-task" transform="translate(708.000000, 0.000000)">
+                        <circle id="Oval" stroke="#000000" stroke-width="3" cx="13" cy="13" r="13"></circle>
+                        <rect id="Rectangle" fill="#000000" x="7" y="12" width="12" height="2" rx="1"></rect>
+                        <path d="M8,12 L18,12 C18.5522847,12 19,12.4477153 19,13 C19,13.5522847 18.5522847,14 18,14 L8,14 C7.44771525,14 7,13.5522847 7,13 C7,12.4477153 7.44771525,12 8,12 Z" id="Rectangle-Copy" fill="#000000" transform="translate(13.000000, 13.000000) rotate(90.000000) translate(-13.000000, -13.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

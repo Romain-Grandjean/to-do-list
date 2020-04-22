@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Delete button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.2%" y="-19.9%" width="104.5%" height="142.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1090.000000, -588.000000)" fill="#000000">
+            <g id="task-2" filter="url(#filter-1)" transform="translate(306.000000, 550.000000)">
+                <g id="Delete-button" transform="translate(791.000000, 44.000000) rotate(45.000000) translate(-791.000000, -44.000000) translate(785.000000, 38.000000)">
+                    <rect id="Rectangle" x="0" y="5" width="12" height="2" rx="1"></rect>
+                    <path d="M1,5 L11,5 C11.5522847,5 12,5.44771525 12,6 C12,6.55228475 11.5522847,7 11,7 L1,7 C0.44771525,7 6.76353751e-17,6.55228475 0,6 C-6.76353751e-17,5.44771525 0.44771525,5 1,5 Z" id="Rectangle-Copy" transform="translate(6.000000, 6.000000) rotate(90.000000) translate(-6.000000, -6.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

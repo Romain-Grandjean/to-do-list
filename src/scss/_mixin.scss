@@ -1,0 +1,27 @@
+@mixin flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+@mixin flex-row-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font-project {
+font-family: sofia-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 1.8rem;
+color: black;
+}
+
+@mixin margin-left {
+    margin-left: 7.2rem;
+}
+
+@mixin padding-left {
+    padding-left: 7.2rem;
+}

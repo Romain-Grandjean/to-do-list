@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="30px" viewBox="0 0 35 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.2%" y="-19.9%" width="104.5%" height="142.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.01 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-326.000000, -471.000000)" fill="#000000">
+            <g id="task-1" filter="url(#filter-1)" transform="translate(306.000000, 440.000000)">
+                <g id="fond">
+                    <g id="Rectangle">
+                        <g id="check" transform="translate(22.000000, 31.000000)">
+                            <rect id="Rectangle" transform="translate(6.400000, 20.000000) rotate(52.000000) translate(-6.400000, -20.000000) " x="-1.6" y="18.4" width="16" height="3.2" rx="1.6"></rect>
+                            <rect id="Rectangle-Copy-2" transform="translate(20.000000, 13.600000) rotate(-50.000000) translate(-20.000000, -13.600000) " x="4" y="12" width="32" height="3.2" rx="1.6"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
