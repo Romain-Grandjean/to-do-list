@@ -1,31 +1,27 @@
-const addToList = () => {
-    let userInput = document.querySelector("#userText").value;
-    let newP = document.createElement("p");
-    let text = document.createTextNode(userInput);
-    newP.appendChild(text);
+NoText = () => {
+  return alert("You need to enter a task");
+}
 
-    let tasks = document.querySelector(".tasks");
-    tasks.style.display = "flex";
-    tasks.style.flexFlow = "row nowrap";
-    tasks.style.justifyContent = "center";
 
-    let divResult = document.querySelector(".divResult");
-    divResult.style.width = "82.8rem";
-    divResult.style.height = "8.8rem";
-    divResult.style.transform = "translateY(2.2rem)"
-    divResult.style.backgroundColor = "white";
-    divResult.style.border = "1px rgba(0, 0, 0, 0.05) solid";
-    divResult.style.boxShadow = "0px 1px 3px 0px rgba(0, 0, 0, 0.05)"
-    divResult.style.borderRadius = "8px";
-    divResult.style.display = "flex";
-    divResult.style.flexFlow = "row nowrap";
-    divResult.style.justifyContent = "flex-start";
-    divResult.style.alignItems = "center";
+document.querySelector('.buttonAdd').addEventListener('click', () => {
 
-    let p = document.querySelector("p");
-    p.style.marginLeft = "72px";
+  let userInput = document.querySelector("#userText").value;
+  let newP = document.createElement("span");
+  newP.className = "tasksText";
+  let text = document.createTextNode(userInput);
+  newP.appendChild(text);
 
-    document.querySelector(".divResult").appendChild(newP);
-    document.querySelector(".result").appendChild(newP);
-    document.querySelector("#userText").value = "";
-  };
+  if (userInput == "") {
+    return NoText();
+  }
+
+  let tasks = document.querySelector(".tasks");
+
+  let divResult = document.createElement("divResult");
+  divResult.className = "divResult";
+  tasks.appendChild(divResult);
+
+  divResult.appendChild(newP);
+
+  document.querySelector("#userText").value = "";
+})
