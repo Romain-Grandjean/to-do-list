@@ -68,11 +68,30 @@ body {
     outline-style: none;
 }
 
-.button {
+.buttonAdd {
     margin-right: 21px;
 }
-
-p {
-    @include font-project;
+.tasks {
+    width: 100vw;
+    @include flex-column-center;
 }
 
+.divResult {
+    width: 82.8rem;
+    height: 8.8rem;
+    margin-top: 2.2rem;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.05) solid;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+    border-Radius: 8px;
+    display: flex;
+    flex-Flow: row nowrap;
+    justify-Content: flex-start;
+    align-Items: center;
+
+}
+
+.tasksText {
+    @include font-project;
+    margin-left: 72px;
+}

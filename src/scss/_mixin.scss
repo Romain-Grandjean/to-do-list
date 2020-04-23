@@ -10,6 +10,13 @@
     align-items: center;
 }
 
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin font-project {
 font-family: sofia-pro, sans-serif;
 font-weight: 600;
