@@ -101,8 +101,18 @@ body {
   border-Radius: 8px;
   display: flex;
   flex-Flow: row nowrap;
-  justify-Content: flex-start;
+  justify-Content: space-between;
   align-Items: center;
+}
+
+.button-delete {
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/delete-button.svg);
+  margin-right: 31px;
+  border: none;
+  background-color: none;
+  outline-style: none;
 }
 
 .tasksText {
