@@ -23,5 +23,15 @@ document.querySelector('.buttonAdd').addEventListener('click', () => {
 
   divResult.appendChild(newP);
 
+  let deleteButton = document.createElement("button");
+  deleteButton.className = "button-delete";
+  divResult.appendChild(deleteButton);
+
+  
   document.querySelector("#userText").value = "";
 })
+
+// document.querySelector('.button-delete').addEventListener('click', () => {
+//   return 
+
+// }
