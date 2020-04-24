@@ -27,9 +27,17 @@ document.querySelector('.buttonAdd').addEventListener('click', () => {
   deleteButton.className = "button-delete";
   divResult.appendChild(deleteButton);
 
-  document.querySelector('.button-delete').addEventListener('click', () => {
+  // document.querySelector('.button-delete').addEventListener('click', () => {
+  //   divResult.remove();
+  //   });
+
+
+deleteButton.addEventListener('click', () => {
     divResult.remove();
     });
 
+
   document.querySelector("#userText").value = "";
 });
+
+
